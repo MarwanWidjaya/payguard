@@ -1,0 +1,34 @@
+{
+  "verdict": "warn",
+  "score": 30,
+  "reasons": [
+    "first interaction between this agent and payee (+20)",
+    "payee identity not verifiable pre-payment: no directory binding exists, and PayPal offers no lookup for arbitrary payees (+10)"
+  ],
+  "signals": {
+    "payee": {
+      "email": "sb-newshop9@personal.example.com"
+    },
+    "presented_identifiers": [
+      "sb-newshop9@personal.example.com"
+    ],
+    "known_payee": false,
+    "directory_entry": null,
+    "canonical_id": "sb-newshop9@personal.example.com",
+    "blocklisted": false,
+    "blocklist_identifier": null,
+    "blocklist_entry": null,
+    "identifier_drift": false,
+    "drift_detail": null,
+    "payee_verified": null,
+    "lookalike_domain": null,
+    "first_interaction": true,
+    "prior_interactions": 0,
+    "relationship_days": null,
+    "amount_usd": 75.0,
+    "amount_vs_max": null,
+    "velocity_24h_count": 0,
+    "velocity_24h_total_usd": 0.0,
+    "context_mismatch": null
+  }
+}

@@ -1,0 +1,1 @@
+{"INV-2026-1001":{"amount_usd":"120.00","currency":"USD","invoice_id":"INV-2026-1001","note":"PHASE-1 FIXTURE shaped like the object behind the toolkit's get_invoice tool (create_invoice takes recipient_email + items). Phase 2 fetches the real document instead.","recipient_email":"sb-vendor42@business.example.com","recipient_payer_id":"VENDORPAYER01","status":"SENT"}}

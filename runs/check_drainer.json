@@ -1,0 +1,38 @@
+{
+  "verdict": "block",
+  "score": 100,
+  "reasons": [
+    "BLOCKLISTED via quick-settle@billing-example.net: PHASE-1 FIXTURE (not a real report): drainer that poses as a billing service and social-engineers agents into redirecting vendor payments to it (evidence: Phase-1 demo fixture entry (local). In production this field carries the report evidence: the poisoned document, payout links, or a signed report., reported by sb-agentops@business.example.com)"
+  ],
+  "signals": {
+    "payee": {
+      "email": "quick-settle@billing-example.net"
+    },
+    "presented_identifiers": [
+      "quick-settle@billing-example.net"
+    ],
+    "known_payee": false,
+    "directory_entry": null,
+    "canonical_id": "quick-settle@billing-example.net",
+    "blocklisted": true,
+    "blocklist_identifier": "quick-settle@billing-example.net",
+    "blocklist_entry": {
+      "evidence": "Phase-1 demo fixture entry (local). In production this field carries the report evidence: the poisoned document, payout links, or a signed report.",
+      "reason": "PHASE-1 FIXTURE (not a real report): drainer that poses as a billing service and social-engineers agents into redirecting vendor payments to it",
+      "reported_at": "2026-11-03T00:00:00Z",
+      "reported_by": "sb-agentops@business.example.com"
+    },
+    "identifier_drift": false,
+    "drift_detail": null,
+    "payee_verified": null,
+    "lookalike_domain": null,
+    "first_interaction": true,
+    "prior_interactions": 0,
+    "relationship_days": null,
+    "amount_usd": 250.0,
+    "amount_vs_max": null,
+    "velocity_24h_count": 0,
+    "velocity_24h_total_usd": 0.0,
+    "context_mismatch": null
+  }
+}

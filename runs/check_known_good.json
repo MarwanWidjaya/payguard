@@ -1,0 +1,45 @@
+{
+  "verdict": "allow",
+  "score": 0,
+  "reasons": [
+    "no risk signals fired"
+  ],
+  "signals": {
+    "payee": {
+      "email": "sb-vendor42@business.example.com"
+    },
+    "presented_identifiers": [
+      "sb-vendor42@business.example.com"
+    ],
+    "known_payee": true,
+    "directory_entry": {
+      "account_type": "BUSINESS",
+      "display_name": "Vendor42 Supplies (sandbox fixture)",
+      "email_verified": true,
+      "emails": [
+        "sb-vendor42@business.example.com"
+      ],
+      "first_seen": "2026-03-14",
+      "note": "PHASE-1 FIXTURE shaped like a sandbox business account (sb-...@business.example.com) plus the attributes a userinfo capture would carry.",
+      "payer_id": "VENDORPAYER01",
+      "phones": [],
+      "verified_account": true
+    },
+    "canonical_id": "VENDORPAYER01",
+    "blocklisted": false,
+    "blocklist_identifier": null,
+    "blocklist_entry": null,
+    "identifier_drift": false,
+    "drift_detail": null,
+    "payee_verified": true,
+    "lookalike_domain": null,
+    "first_interaction": false,
+    "prior_interactions": 8,
+    "relationship_days": 234,
+    "amount_usd": 120.0,
+    "amount_vs_max": 0.6666666666666666,
+    "velocity_24h_count": 0,
+    "velocity_24h_total_usd": 0.0,
+    "context_mismatch": null
+  }
+}
